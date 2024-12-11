@@ -462,7 +462,15 @@
       font-size: 20px;
     } 
   }
-  @media (max-width: 768px) {
+
+  @media (max-width: 1024px) {
+    .hero h3 {
+      font-size: 50px;
+    } 
+  }
+
+
+  @media (max-width: 768px)  {
     .hero {
       height: 505px;
         text-align: center;
@@ -1140,6 +1148,29 @@ h3 {
 }
 
 /* Responsive Design */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .image-grid1 {
+      margin-left: 20px; /* Adjusted margin for smaller screen */
+      gap: 15px; /* Increased gap for better layout */
+      flex-wrap: nowrap; /* Prevent wrapping to keep all items in one row */
+  }
+
+  .image-container {
+      flex: 1 1 calc(33.333% - 15px); /* Divide row into 3 equal parts, accounting for gap */
+      max-width: calc(33.333% - 15px); /* Ensure max width matches the flex basis */
+  }
+
+  .image-container img {
+      max-width: 200%; /* Ensure the images scale properly */
+  }
+
+  .image-container p {
+      font-size: 15px; /* Slightly smaller text for better fit */
+  }
+}
+
+
 @media (max-width: 768px) {
     .image-grid1 {
         flex-direction: column;
