@@ -482,7 +482,7 @@
     }
 
     .hero h3 {
-      margin-top: 200px;
+      margin-top: 190px;
       font-size: 30px;
     }
 
@@ -514,7 +514,7 @@
     }
 
     .hero h3 {
-      margin-top: 215px;
+      margin-top: 198px;
       font-size: 20px;
     }
   
@@ -738,12 +738,13 @@
 }
 
 .beta-text h1 {
-  font-size: 60px;
+  font-size: 45px;
   color: white;
 }
 
 .beta-text h3 {
   font-size: 15px;
+  font-weight: 400;
   color: #BAB8B8;
   margin-top: 20px;
 }
@@ -992,7 +993,7 @@ h1 {
 
 h3 {
   font-size: 1.2rem;
-  color: #828282;
+  color: #B080FF;
   margin-bottom: 30px;
 }
 
@@ -1112,7 +1113,7 @@ h3 {
     justify-content: space-between;
     gap: 0px;
     flex-wrap: wrap;
-    margin-left: 50px;
+    margin-left: 200px;
 }
 
 .image-container {
@@ -1140,9 +1141,9 @@ h3 {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .image-grid {
+    .image-grid1 {
         flex-direction: column;
-        margin-right: 20px;
+        margin-left: 100px;
     }
 
     .image-container {
@@ -1162,9 +1163,9 @@ h3 {
 
 @media (max-width: 480px) {
 
-  .image-grid {
+  .image-grid1 {
     flex-direction: column;
-    margin-right: 20px;
+    margin-right: 200px;
 }
 
     .image-container img {
